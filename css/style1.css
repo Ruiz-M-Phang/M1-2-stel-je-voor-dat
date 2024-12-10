@@ -1,0 +1,286 @@
+/* css of page 1 and page 2 */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: #ad7b7b;
+    height: 120px;
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 3%;
+}
+
+body {
+  font-size: 20px;
+  font-family: sans-serif;
+  background-image: url(https://www.everwallpaper.co.uk/cdn/shop/products/big-floral-wallpapers.jpg?v=1659079226);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.dark-mode {
+  color: white;
+
+  header{
+    background: #523b3b;
+  }
+  a{
+    color: white;
+  }
+  article {
+    background: #262a36;
+  }
+  footer {
+    background: #523b3b;
+  }
+}
+
+.header{
+  margin-right: 10px;
+}
+
+.nav1 {
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.nav2{
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.nav3 {
+  margin-left: 15px;
+  width: 110px;
+  height: 30px;
+  border-radius: 40px;
+}
+
+article {
+  width: 60vw;
+  background: #7b87ad;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.linkedin{
+color: black;
+}
+
+a{
+color: black;
+text-decoration: none;
+}
+
+footer {
+  background: #ad7b7b;
+  height: 100px;
+  justify-items: center;
+  padding-top: 35px;
+}
+
+/* css of page 1 */
+
+.index1, .header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.Naam1 {
+    font-size: 40px;
+    padding-left: 40%;
+    padding-right: 30%;
+}
+
+.foto1 {
+  border-radius: 150%;
+  width: 25%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.p1 {
+    text-align: left;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 15%;
+  }
+
+  .first_h2, .tussenkop2 {
+    text-align: start;
+    padding-left: 5%;
+    padding-right: 65%;
+  }
+
+  .second_img1 {
+    width: 50%;
+    padding-bottom: 14%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .p2 {
+    text-align: left;
+    padding-bottom: 30%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .img3 {
+    width: 50%;
+    margin-bottom: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  
+  .p3 {
+    text-align: left;
+    padding-bottom: 35%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .img4 {
+    width: 50%;
+    margin-bottom: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  
+  .p4 {
+    text-align: left;
+    padding-bottom: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+#list{
+  margin: 0;
+  text-align: center;
+}
+
+.list2{
+  padding: 10px;
+  list-style: none;
+  padding: 6% 30% 6% 30%;
+}
+
+.listItem2{
+  padding: 1% 0% 1% 0%;
+}
+
+@media screen and (max-width:900px) {
+    article{
+        width: 80vw;
+    }
+    .tussenkop2{
+      padding-left: 5%;
+      padding-right: 65%;
+    }
+  }
+
+  @media screen and (max-width:800px) {
+    article{
+        width: 80vw;
+    }
+    .tussenkop2{
+      padding-left: 3%;
+      padding-right: 65%;
+    }
+  }
+
+  @media screen and (max-width:600px) {
+    article{
+        width: 90vw;
+    }
+    .tussenkop2{
+      padding-left: 0px;
+    }
+  }
+
+  @media screen and (max-width:360px) {
+    article{
+        width: 100vw;
+    }
+    .Naam1 {
+      font-size: 40px;
+      padding-left: 5%;
+      padding-right: 5%;
+      text-align: center;
+  }
+  .first_h2, .tussenkop2 {
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 2%;
+  }
+    .foto1 {
+      border-radius: 150%;
+      width: 100%;
+      margin-left: -1px;
+      justify-content: center;
+      justify-items: center;
+    }
+    .second_img1, .img3, .img4 {
+      width: 100%;
+      padding-right: 10%;
+      justify-content: center;
+      justify-items: center;
+    }
+    .index1{
+      display: block;
+      align-items: center;
+      justify-content: center;
+    }
+    .tussenkop2{
+      padding-left: 10px;
+      margin-left: -37px;
+    }
+    .list2{
+      padding: 10px;
+      list-style: none;
+      padding: 6% 5% 6% 5%;
+    }
+  }
+
+  /* css of page 2 */
+
+  .page2_sect1{
+    padding-bottom: 0 auto;
+  }
+
+  .page2_title1{
+    font-size: 40px;
+    padding-bottom: 1%;
+  }
+
+  .page2_title2{
+    padding-bottom: 1%;
+  }
+
+  .page2_img1{
+    width: 100%;
+    transition: 0.2s transform;
+  }
+
+  .page2_img1:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+  figcaption{
+    font-size: 80%;
+    font-style: italic;
+    padding-bottom: 1%;
+}
+
+  .page2_p1{
+    padding-bottom: 1%;
+  }
